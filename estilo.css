@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+       --cor0:#0F797A;
+       --cor1:#1FF8FA;
+       --cor2:#1FF8FA;
+       --cor3:#0D5D7A;
+       --cor4:#1BBFFA;
+       --cor5:#1BBFFA;
+}
+
+html{
+     background-color: var(--cor3);
+}
+
+
+header {     
+        background-image: linear-gradient( to bottom, var(--cor5), var(--cor2));
+        width: 1100px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: fantasy;      
+        color:var(--cor3);
+        border-radius: 10px;
+}
+
+h2{
+     font-size: 30px;
+     text-decoration: underline;
+     padding-bottom: 15px;
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#p1{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#p2{
+    
+    text-indent: unset;
+    font-size: 30px;
+}
+
+.criterios{
+
+       text-align: center;
+       font-size: 20px;
+       font-style: italic;
+       color:white;
+}
+
+nav > a {  
+      text-align: left;
+      color:white;
+      font-size: 19px;
+      padding: 10px;
+      font-family: sans-serif;
+      text-decoration: none;
+}
+
+nav >a:hover{
+
+   color:black;
+
+}
+
+.sofa{
+
+      display: inline-block;
+      margin-top: 50px;
+      margin-right: 100px;
+      margin-left: 100px;
+      padding: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color:var(--cor4) ;
+      border-radius: 20px;
+}
+
+.sofa >img{
+             
+     padding: 5px;
+
+}
+
+.veiculo{
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4) ;
+    border-radius: 20px;
+}
+
+.veiculo >img{
+
+    padding: 10px;
+}
+
+.cadeiras{
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4) ;
+    border-radius: 20px;
+}
+
+.cadeiras >img{
+
+    padding: 10px;
+}
+
+.conteudo{
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4) ;
+    border-radius: 20px;
+}
+
+.poltronas{
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4) ;
+    border-radius: 20px;
+}
+
+.poltronas >img{
+
+    padding: 10px;
+}
+
+.camas{
+
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4) ;
+    border-radius: 20px;
+}
+
+.camas >img{
+
+    padding: 10px;
+}
+
+footer{
+
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:var(--cor4);
+    border-radius: 20px;
+}
+
+
